@@ -1,0 +1,225 @@
+. {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+.Praimary-color {
+    color: orange;
+
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+
+/* hader section */
+
+.fnt {
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+
+
+}
+
+li {
+    padding: 20px;
+}
+
+/* button section */
+
+.btn {
+    color: #ffffff;
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 30px
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+
+}
+
+.up {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.down {
+    font-weight: 700;
+    font-size: 52px
+}
+
+.pp {
+    color: #757575;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* \about section  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about {
+    background-color: #FFF8F3;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 100px 200px;
+}
+
+.sectionh {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.spp {
+    color: #757575;
+    font-size: 18px;
+}
+
+/* info */
+
+.info-title {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+
+}
+
+/* What-do */
+
+.What-do {
+    margin-top: 120px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-titel {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title-pp {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+
+/* resume section style  */
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.resume {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-ed {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume-sub {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.resume-pra {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.btn-cv {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* icon and from */
+
+.icon-input {
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 100px 200px;
+}
+
+.icon-input input,
+textarea {
+
+    margin-bottom: 24px;
+    border: 0px;
+    padding-left: 30px;
+
+}
+
+input {
+    height: 40px;
+}
+
+.icon-input a {
+
+    text-decoration: none;
+
+}
